@@ -1,0 +1,45 @@
+body {
+  background: #C0C0C0;
+  color: #C0C0C0;
+  font-family: "Mandali";
+  font-size: 2vw;
+}
+
+h2 {
+  background: #2c3e50;
+  color: #C0C0C0;
+  font-size: 5vw;
+}
+
+tr {
+  background: #2c3e50;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #425d78;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background: #2c3e50;
+}
+
+th {
+  text-align: center;
+}
+
+a {
+  color: #C0C0C0;
+}
+
+.img-thumbnail {
+  height: 40px;
+  width: 40px;
+}
+
+.header {
+  text-align: center;
+}
